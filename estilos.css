@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* MENU */
+.menu{
+    background-color: #161527;
+    width: 100%;
+    height: 8.5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+}
+.logo{
+    padding: 0.8rem 0.8rem 0.8rem 2rem;
+    height: 100%;
+}
+.logo > a{
+    height: 100%;
+}
+.img-logo{
+    width: 5rem;
+    height: 100%;
+}
+.icon{
+    padding: 0.8rem 2rem 0.8rem 0.8rem;
+    height: 100%;
+}
+.icon > a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-icon{
+    width: 2rem;
+    height: 2rem;
+}
+hr{
+    height: 1%;
+}
+nav{
+    width: 100%;
+    height: 39%;
+}
+nav > h2{
+    height: 100%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/**/
+
+/* CUERPO */
+.container{
+    margin: auto;
+    width: 95%;
+    padding: 1rem .5rem;
+}
+.titulo{
+    width: 100%;
+    height: 6.5rem;
+    text-align: center;
+}
+.titulo > h1{
+    width: 100%;
+    height: 50%;
+    font-size: 2.6rem;
+}
+.titulo > p{
+    width: 100%;
+    height: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.compras{
+    width: 100%;
+    flex-direction: column;
+}
+.productos{
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.intro{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.intro > p{
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    text-align: center;
+}
+form{
+    width: 100%;
+}
+fieldset{
+    padding: 1rem;
+    border: 0;
+    border-radius: 2rem;
+    background-color: #77818a;
+}
+.legend{
+    width: 100%;
+}
+.legend > legend{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+.product1{
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.product1 > label{
+    display: block;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+}
+.product1 > select{
+    width: 100%;
+    border: 0;
+    border-radius: 0.4rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: black;
+    padding: 0.5rem;
+}
+.precio{
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.mensaje{
+    width: 100%;
+    border: solid 0.1rem #2173fd;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+.box-txt{
+    width: 100%;
+    border-bottom: solid 0.1rem #2173fd;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: #2173fd;
+}
+.box-txt:last-child{
+    border: none;
+}
+.box-txt > ul > li{
+    margin-left: 2rem;
+    list-style: circle;
+}
+.preciototal{
+    width: 100%;
+    box-shadow: 0.2rem 0.2rem 0.5rem black;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+.box-precio{
+    width: 100%;
+    border-bottom: solid 0.1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.box-precio:last-child{
+    border: none;
+}
+/**/
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: #161527;
+    flex-direction: column;
+    color: whitesmoke;
+    padding: 1.5rem;
+}
+.superior{
+    width: 100%;
+}
+.sigueme{
+    width: 100%;
+}
+.sigueme > h3{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.img-apps{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.inferior{
+    width: 100%;
+}
+.columnas{
+    width: 100%;
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+}
+.columnas > ul{
+    margin-top: 0.5rem;
+}
+.columnas > ul > li{
+    list-style: none;
+}
+
+@media screen and (min-width: 50rem){
+    .container{
+        margin-top: 3.5rem;
+        margin-bottom: 3.5rem;
+    }
+    .compras{
+        display: flex;
+        flex-direction:row;
+    }
+    .productos{
+        width: 64%;
+        margin-right: 2%;
+    }
+    .intro > p{
+        text-align: justify;
+    }
+    .precio{
+        width: 32%;
+        margin-left: 2%;
+    }
+    .inferior{
+        display: flex;
+        flex-direction: row;
+    }
+}
+/**/
