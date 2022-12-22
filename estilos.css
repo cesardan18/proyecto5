@@ -152,9 +152,6 @@ fieldset{
     flex-direction: column;
     margin: 1rem 0rem 1rem 0rem;
 }
-.especial{
-    font-weight: 900;
-}
 .mensaje{
     width: 100%;
     border: solid 0.1rem #2173fd;
@@ -189,6 +186,20 @@ fieldset{
 }
 .box-precio:last-child{
     border: none;
+}
+.total{
+    width: 100%;
+}
+.total > label{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.total > input{
+    width: 8rem;
+    border: 1;
+    font-size: 1rem;
+    font-weight: 600;
 }
 /**/
 
