@@ -135,6 +135,7 @@ fieldset{
 .product > label{
     display: block;
     color: white;
+    font-size: 1.3rem;
     font-weight: 600;
     padding-bottom: 0.3rem;
 }
@@ -236,11 +237,37 @@ footer{
 .columnas > ul{
     margin-top: 0.5rem;
 }
-.columnas > ul > li{
+.columnas > ul > a > li{
     list-style: none;
+}
+.columnas > ul > a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 @media screen and (min-width: 50rem){
+    nav > h2{
+        font-size: 2rem;
+    }
+    .titulo > h1{
+        font-size: 3rem;
+    }
+    .titulo > p{
+        font-size: 1.8rem;
+    }
+    .intro > p{
+        font-size: 1.3rem;
+    }
+    .legend > legend{
+        font-size: 2.25rem;
+    }
+    .product > label{
+        font-size: 1.5rem;
+    }
+    .product > select{
+        font-size: 0.8rem;
+    }
+
     .container{
         margin-top: 3.5rem;
         margin-bottom: 3.5rem;
