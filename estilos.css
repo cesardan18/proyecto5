@@ -127,18 +127,18 @@ fieldset{
     color: whitesmoke;
     margin-bottom: 1.5rem;
 }
-.product1{
+.product{
     width: 100%;
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
 }
-.product1 > label{
+.product > label{
     display: block;
     color: white;
     font-weight: 600;
     padding-bottom: 0.3rem;
 }
-.product1 > select{
+.product > select{
     width: 100%;
     border: 0;
     border-radius: 0.4rem;
@@ -151,6 +151,9 @@ fieldset{
     width: 100%;
     flex-direction: column;
     margin: 1rem 0rem 1rem 0rem;
+}
+.especial{
+    font-weight: 900;
 }
 .mensaje{
     width: 100%;
